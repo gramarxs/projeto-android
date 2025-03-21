@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @font-face {
     font-family: 'Android';
-    src: url('fontes/idroid.otf') format ('opentype');
+    src: url('idroid.otf') format ('opentype');
     font-weight: normal;
 }
 /*fonte mãe*/
@@ -27,7 +27,7 @@
 
 body {
     font-family: var (--fonte-padrao);
-    background-color: #c5ebd6;
+    background-color: var(--cor0);
 
     text-align: left;
     text-decoration: none;
@@ -38,7 +38,7 @@ a.externo:after {
 }
 
 header {
-    background-image: linear-gradient(to bottom, var(--cor3), var (--cor5));
+ background-image: linear-gradient(to bottom, var (--cor3) var (--cor5) );
     min-height: 150px;
     text-align: center;
     padding-top: 40px;
@@ -46,16 +46,16 @@ header {
 
 header> h1 {
 
-    color: white;
-    font-family: var (--font-destaque);
+   color: white;
+    font-family: var(--font-destaque);
     font-size: 3em;  
     margin-bottom: 20px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0.267);
-    
+   
 }
 
 header > p {
-    font-family: var (--fonte-padrao);
+    font-family: var(--fonte-padrao);
     font-size: 1.2em;
     font-weight: normal;
     color: white;
