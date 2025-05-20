@@ -6,7 +6,7 @@
     src:url('idroid.otf')format('opentype');
     font-weight: normal;
 }
-/*fonte mãe*/
+
 :root{
     --cor0:#c5ebd6;
     --cor1:#83e1ad;
@@ -15,9 +15,9 @@
     --cor4:#1a5c37;
     --cor5:#063d1e;
 
-    --fonte-padrao:Arial, Verdana, Helvetica, sans-serif;
-    --font-destaque:"Bebas Neue", sans-serif; 
-    --font-android:'Android' , sans-serif;
+    --fonte-padrao: Arial, verdana, Helvetica, sans-serif;
+    --font-destaque:"bebas Neue", sans-serif;
+    --font-android:'Android', sans-serif;
 }
 
 * {
