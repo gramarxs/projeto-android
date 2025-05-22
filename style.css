@@ -30,7 +30,7 @@
 }
 
 body{
-    background-image: linear-gradient(to bottom, var(--cor7), var(--cor5), var(--cor0) 67%);
+    background-image: linear-gradient(to bottom, var(--cor4), var(--cor5), var(--cor0) 67%);
     background-attachment: fixed;
     font-family: var(--fonte-padrao);
     text-align: left;
