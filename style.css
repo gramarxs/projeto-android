@@ -28,8 +28,8 @@
 }
 
 body{
-    background-color: var(--cor3);
-font-family: var(--fonte-padrao);
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor4), var(--cor5));
+    font-family: var(--fonte-padrao);
     text-align:left;
     text-decoration:none;
 }
